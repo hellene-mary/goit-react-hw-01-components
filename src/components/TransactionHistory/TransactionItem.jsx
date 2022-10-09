@@ -1,3 +1,5 @@
+import { PropTypes } from 'prop-types';
+
 export function TransactionItem({ type, amount, currency }) {
     return (
         <tr>
@@ -7,3 +9,9 @@ export function TransactionItem({ type, amount, currency }) {
         </tr>
     );
 }
+
+TransactionItem.propTypes = {
+    type: PropTypes.string.isRequired,
+    amount: PropTypes.string.isRequired,
+    currency: PropTypes.string.isRequired,
+};
