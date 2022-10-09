@@ -1,0 +1,33 @@
+.transactionHistory {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.transactionTable {
+    margin: 0 auto;
+    width: 600px;
+    table-layout: auto;
+}
+
+.transactionTableHead {
+    font-weight: 700;
+    color: #000000;
+}
+
+.transactionTableHead tr th {
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+.transactionTableBody {
+    background-color: #fff;
+    text-align: center;
+}
+
+.transactionTableBody tr td {
+    padding: 10px;
+}
+
+.transactionTableBody tr:nth-child(2n) {
+    background-color: #ebebeb;
+}
