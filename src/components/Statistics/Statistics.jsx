@@ -5,8 +5,7 @@ function getRandomHexColor() {
     return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-export const Statistics = ({ stats }) => {
-    const { title } = stats;
+export const Statistics = ({ stats, title }) => {
     return (
         <section className={css.statistics}>
             {title && <h2 className={css.title}>Upload stats</h2>}
